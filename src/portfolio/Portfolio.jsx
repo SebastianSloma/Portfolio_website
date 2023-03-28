@@ -14,49 +14,62 @@ const Portfolio = () => {
             <img src={IMG} alt="portfolio" />
           </div>
           <h3>This is a portfolio item title</h3>
+          <div className="portfolio__item-cta">
           <a href="https://github.com/SebastianSloma" className='btn' target='_blank' rel="noreferrer">Github</a>
           <a href="https://dribbble.com/giorgimatsukatovi" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG} alt="portfolio" />
           </div>
           <h3>This is a portfolio item title</h3>
+          <div className="portfolio__item-cta">
           <a href="https://github.com/SebastianSloma" className='btn' target='_blank' rel="noreferrer">Github</a>
           <a href="https://dribbble.com/giorgimatsukatovi" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG} alt="portfolio" />
           </div>
           <h3>This is a portfolio item title</h3>
+          <div className="portfolio__item-cta">
           <a href="https://github.com/SebastianSloma" className='btn' target='_blank' rel="noreferrer">Github</a>
           <a href="https://dribbble.com/giorgimatsukatovi" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG} alt="portfolio" />
           </div>
           <h3>This is a portfolio item title</h3>
+          <div className="portfolio__item-cta">
           <a href="https://github.com/SebastianSloma" className='btn' target='_blank' rel="noreferrer">Github</a>
           <a href="https://dribbble.com/giorgimatsukatovi" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG} alt="portfolio" />
           </div>
           <h3>This is a portfolio item title</h3>
+          <div className="portfolio__item-cta">
           <a href="https://github.com/SebastianSloma" className='btn' target='_blank' rel="noreferrer">Github</a>
           <a href="https://dribbble.com/giorgimatsukatovi" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG} alt="portfolio" />
           </div>
           <h3>This is a portfolio item title</h3>
+          <div className="portfolio__item-cta">
           <a href="https://github.com/SebastianSloma" className='btn' target='_blank' rel="noreferrer">Github</a>
           <a href="https://dribbble.com/giorgimatsukatovi" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+          </div>
         </article>
+        
       </div>
     </section>
   )
