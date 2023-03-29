@@ -9,32 +9,34 @@ const Testimonials = () => {
       <h2>Testimonials</h2>
 
       <div className="container testimonials__container">
-        <article className="testimonials">
+        <article className="testimonial">
           <div className="client__avatar">
             <img src={AVTR} alt="Avatar" />
+          </div>
             <h5 className='client__name'>Lee Cambel</h5>
             <small className='client__review'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, repellat!
             </small>
-          </div>
         </article>
-        <article className="testimonials">
+
+        <article className="testimonial">
           <div className="client__avatar">
             <img src={AVTR} alt="Avatar" />
+          </div>
             <h5 className='client__name'>Lee Cambel</h5>
             <small className='client__review'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, repellat!
             </small>
-          </div>
         </article>
-        <article className="testimonials">
+
+        <article className="testimonial">
           <div className="client__avatar">
             <img src={AVTR} alt="Avatar" />
+          </div>
             <h5 className='client__name'>Lee Cambel</h5>
             <small className='client__review'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, repellat!
             </small>
-          </div>
         </article>
       </div>
     </section>
