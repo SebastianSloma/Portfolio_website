@@ -1,8 +1,8 @@
 import React from 'react';
 import './contact.css';
 import { MdOutlineEmail } from 'react-icons/md';
-import { RiMessengerLine } from 'react-icons/ri';
 import { BsWhatsapp } from 'react-icons/bs';
+import {TbBrandTelegram} from 'react-icons/tb'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
@@ -35,17 +35,17 @@ const Contact = () => {
 					</article>
 
 					<article className='contact__option'>
-						<RiMessengerLine className='contact__option-icon' />
-						<h4>Messenger</h4>
+						<TbBrandTelegram className='contact__option-icon' />
+						<h4>Telegram</h4>
 						<h5>sebastiansloma</h5>
-						<a href='https://m.me/sebastiansloma' target='_blank' rel="noreferrer">Send a message</a>
+						<a href='https://t.me/Sebastiansloma' target='_blank' rel="noreferrer">Send a message</a>
 					</article>
 
 					<article className='contact__option'>
 						<BsWhatsapp className='contact__option-icon' />
 						<h4>Whatsapp</h4>
-						<h5>+12345678</h5>
-						<a href='https://api.whatsapp.com/send?phone+12345678' target='_blank' rel="noreferrer">Send a message</a>
+						<h5>+48609577449</h5>
+						<a href='https://wa.me/+48609577449' target='_blank' rel="noreferrer">Send a message</a>
 					</article>
 				</div>
         <form ref={form} onSubmit={sendEmail}>
