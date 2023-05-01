@@ -1,15 +1,17 @@
+
 import React from 'react';
 import './expirience.css';
 import { BsPatchCheckFill } from 'react-icons/bs';
+
 
 const Expirience = () => {
 	return (
 		<section id='expirience'>
 			<h5>What Skills I Have</h5>
 			<h2>My Experience</h2>
-
+			
 			<div className='container expirience__container'>
-				
+			
 
 					<div className='expirience__frontend'>
 						<h3>Frontend Development</h3>
